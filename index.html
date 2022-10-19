@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheet-Version-Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light me-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Skrawl2K">My GitHub Profile</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Git & GitHub</a></li>
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">Frameworks</a></li>
+                            <li><a class="dropdown-item" href="#">Libraries</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sources</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- <img class="banner" src="./assets/img/code_background.jpg" alt="Hero Code Background"> -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/code_background.jpg" class=" banner d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        class="banner d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80"
+                        class="banner d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1627399270231-7d36245355a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+                        class="banner d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="d-flex align-content-center">
+            <h1 class=" col display-6 fw-bold mb-3 text-center mainHeadline text-shadow">
+                CheatSheet-Version-Bootstrap<i class="bi bi-bootstrap-fill  ms-2"></i></h1>
+        </div>
+    </header>
+    <main class="bg-secondary">
+        <div class="container text-center text-decoration-none">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h1 id="sec-1">
+                        <i class="bi bi-git me-1"></i>Git & GitHub<i class="bi bi-github ms-1"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_init.html">git init</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_add.html">git add .</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_commit.html">git commit
+                                -m "..."</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_push.html">git push</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_pull.html">git pull</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_remote.html">git
+                                remote</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_config.html">git
+                                config</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_clone.html">git clone</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_diff.html">git diff</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_status.html">git
+                                class="text-black text-decoration-none"status</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_rm.html">git rm</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_show.html">git show</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_tag.html">git tag</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_branch.html">git
+                                branch</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_checkout.html">git
+                                checkout</a></li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_merge.html">git merge</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_stash.html">git stash</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_log.html">git log</a>
+                        </li>
+                        <li><a class="text-black text-decoration-none" href="./assets/html/git_reset.html">git reset</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 id="sec-2">
+                        HTML<i class="bi bi-filetype-html ms-2"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none"
+                                href="./assets/html/HTML/html_stucture.html">HTML-Structure</a></li>
+                        <li><a class="text-black text-decoration-none"
+                                href="./assets/html/HTML/html_common_tags.html">HTML-common Tags</a></li>
+                        <li><a class="text-black text-decoration-none"
+                                href="./assets/html/HTML/html_header_tags.html">HTML-Header Tags</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 id="sec-3">
+                        CSS<i class="bi bi-filetype-css ms-2"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1 id="sec-4">
+                        JavaScript<i class="bi bi-filetype-js ms-2"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 id="sec-5">
+                        Frameworks<i class="bi bi-file-earmark-code ms-2"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1 id="sec-6">
+                        Libraries<i class="bi bi-journals ms-2"></i>
+                    </h1>
+                    <ul>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                        <li><a class="text-black text-decoration-none" href="#">Topics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="row align-items-end">
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <footer class="bg-light">
+        <h2>Sources:</h2>
+        <ul>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+            <a class="mx-3" href="#">Source</a>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

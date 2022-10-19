@@ -1,0 +1,15 @@
+/* !======================FONTS ==================== */
+
+@font-face {
+    font-family: Fredericka-Reg;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+.mainHeadline{
+    font-family: Fredericka-Reg  !important;
+}
+
+.banner{
+    width: 100%;
+    height: 20em;
+}
